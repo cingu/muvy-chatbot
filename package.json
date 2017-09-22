@@ -1,17 +1,26 @@
 {
   "name": "muvy-chatbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# muvy-chatbot\"",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.1",
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "request": "^2.82.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cingu/muvy-chatbot.git"
+  },
   "author": "cingu",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cingu/muvy-chatbot/issues"
+  },
+  "homepage": "https://github.com/cingu/muvy-chatbot#readme"
 }
